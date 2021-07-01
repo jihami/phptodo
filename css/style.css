@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img {border : 1px solid red;
+    /*padding: 10px 20px 30px 40px;*/
+    
+}
+html{background-color: gold;} 
+#student_name{
+	border :2px solid red;
+}
+#main_banner{
+	width:500px; 
+	opacity:1;
+	/*0~1 투명도 조절*/
+}
+/*하나만 자정하면 나머지 하나는 자동으로*/
+.very_important{
+	font-weight:bold;
+	border : 1px dashed blue;
+	border-right: 2px solid #333333;
+	border-bottom : 2px solid #333333;
+}
+img.very_important{
+	margin:20px;
+}
+.shadow{
+   border-right: 2px solid #333333;
+   border-bottom: 2px solid #333333;
+}
